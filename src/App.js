@@ -13,7 +13,8 @@ class App extends React.Component {
     country: undefined,
     humidity: undefined,
     description: undefined,
-    error: undefined
+    error: undefined,
+    sunrise: null
   }
   getWeather = async (e) => {
     e.preventDefault();
@@ -21,6 +22,11 @@ class App extends React.Component {
     const country = e.target.elements.country.value;
     const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`);
     const data = await api_call.json();
+    let sunrise = null;
+    if(data.sys.sunrise){
+      const epoch = data.sys.sunrise * 1000;
+      sunrise = new Date(epoch).toString();
+    }
     if (city && country) {
       this.setState({
         temperature: data.main.temp,
@@ -28,7 +34,8 @@ class App extends React.Component {
         country: data.sys.country,
         humidity: data.main.humidity,
         description: data.weather[0].description,
-        error: ""
+        error: "",
+        sunrise
       });
     } else {
       this.setState({
@@ -37,7 +44,8 @@ class App extends React.Component {
         country: undefined,
         humidity: undefined,
         description: undefined,
-        error: "Please enter the values."
+        error: "Please enter the values.",
+        sunrise
       });
     }
   }
@@ -60,6 +68,7 @@ class App extends React.Component {
                     country={this.state.country}
                     description={this.state.description}
                     error={this.state.error}
+                    sunrise={this.state.sunrise}
                   />
                 </div>
               </div>

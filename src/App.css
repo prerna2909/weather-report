@@ -130,3 +130,16 @@ button:active {
   letter-spacing: 1px;
   font-weight: 200;
 }
+
+.nobullet {
+  list-style: none;
+}
+
+.nobullet li {
+  background: #f2f2f294;
+  margin: 2px 20px;
+}
+
+.p-t-5{
+  padding-top: 50px;
+}

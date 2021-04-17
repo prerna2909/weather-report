@@ -30,6 +30,11 @@ const Weather = props => (
 			<span className="weather__value"> {props.sunrise}</span>
 			</p>
 		}
+		{
+			props.sunset && <p className="weather__key"> Sunset:
+			<span className="weather__value"> {props.sunset}</span>
+			</p>
+		}
 	</div>
 );
 

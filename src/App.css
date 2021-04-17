@@ -56,13 +56,13 @@ body {
 }
 
 input[type="text"] {
-  background-color: transparent;
+  background-color: #31207e;
   border: 0;
   border-bottom: solid 1px #f16051;
   width: 30%;
   padding-bottom: 4px;
-  color: #fff !important;
-  font-weight: lighter;
+  color: #a2af35 !important;
+  font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 30px;
   margin-right: 20px;

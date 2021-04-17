@@ -38,6 +38,12 @@ body {
   letter-spacing: 2px;
   line-height: 1.3;
   font-family: 'Roboto Slab', serif;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.title-container__subtitle {
+  color:#fff;
+  text-shadow: 2px 2px #20257e;
 }
 
 .title-container__subtitle {
@@ -103,7 +109,7 @@ button:active {
 }
 
 .weather__key {
-  color: #f16051;
+  color: #51f17c;
   border-bottom: solid 2px rgba(255,255,255,0.06);
   padding: 10px 0;
   font-weight: 400;
@@ -125,8 +131,18 @@ button:active {
   font-weight: 200;
 }
 
-/* .form__greetings {
-  padding-top: 10%;
-  color: white;
-  text-align: center;
-} */
+
+
+.nobullet {
+  list-style: none;
+}
+
+.nobullet li {
+  background: #f2f2f294;
+  margin: 2px 20px;
+}
+
+.p-t-5{
+  padding-top: 50px;
+}
+

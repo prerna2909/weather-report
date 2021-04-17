@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Weather report application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This will give the detail report of the weather including the sunrise, sunset and etc.
+  
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+  
 
-### `yarn start`
+- [Prerequisites](#prerequisites)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Configuring and installing the addin](#configuring-and-installing-the-weather-report-app)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Run the add-in](#run-the-weather-report-app)
 
-### `yarn test`
+- [Debugging](#debugging)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Unit tests and code coverage](#unit-tests-and-code-coverage)
 
-### `yarn build`
+- [Deployment](#deployment)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Questions and comments](#questions-and-comments)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Addition resource](#addition-resource)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
 
-### `yarn eject`
+## Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Node version should be 10 or above.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* api.openweathermap.org should get the API Key.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* System should have the modern browser like chrome or firefox.
 
-## Learn More
+* Should able to run it on the windows or mac system.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Configuring and installing the weather report app
 
-### Code Splitting
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Download or fork the repository.
 
-### Analyzing the Bundle Size
+* Run command in the terminal -> `yarn` or `npm install`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  
 
-### Making a Progressive Web App
+## Run the weather report app 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  
 
-### Advanced Configuration
+* Run command in the terminal -> `yarn start` or `npm start`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Above run the should run server in 3000 port
 
-### Deployment
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Debugging
 
-### `yarn build` fails to minify
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Chrome browser developer toolbar is sufficient to debug the application
+
+* Install the browser add-in for the reactjs
+
+  
+
+## Unit tests and code coverage
+
+  
+
+* For test run command in the terminal -> `yarn run test` or `npm run test`.
+
+* For code coverage Run command in the terminal -> `yarn run coverage` or `npm run coverage`.
+
+
+  
+
+## Deployment
+
+  
+
+* This should be integrated with Jenkin job 
+
+* This command should running on the deployment`yarn run deploy` or `npm run deploy`
+
+  
+
+## Questions and comments
+
+  
+
+* We'd love to get your feedback about this app. You can send your feedback to us.
+
+  
+
+## Addition resource
+
+  
+
+* https://openweathermap.org/api

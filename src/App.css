@@ -30,7 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #000;
+  color: #9e7272;
 }
 
 .title-container__title {
@@ -123,4 +123,10 @@ button:active {
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 200;
+}
+
+.form__greetings {
+  padding-top: 10%;
+  color: white;
+  text-align: center;
 }

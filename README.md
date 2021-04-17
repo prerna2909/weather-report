@@ -103,3 +103,9 @@ This will give the detail report of the weather including the sunrise, sunset an
   
 
 * https://openweathermap.org/api
+
+
+## Copyright and License
+
+Code released under the [MIT] license.
+

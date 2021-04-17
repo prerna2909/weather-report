@@ -30,7 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #000;
+  color: #9e7272;
 }
 
 .title-container__title {
@@ -55,20 +55,20 @@ body {
 }
 
 .form-container {
-  background-color: #20257e;
+  background-color: #31207e;
   height: 90vh;
   padding-top: 100px;
   padding-left: 50px;
 }
 
 input[type="text"] {
-  background-color: transparent;
+  background-color: #31207e;
   border: 0;
   border-bottom: solid 1px #f16051;
   width: 30%;
   padding-bottom: 4px;
-  color: #fff !important;
-  font-weight: lighter;
+  color: #a2af35 !important;
+  font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 30px;
   margin-right: 20px;
@@ -103,7 +103,7 @@ button:active {
 }
 
 .weather__info {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 200;
   letter-spacing: 2px;
 }
@@ -111,7 +111,7 @@ button:active {
 .weather__key {
   color: #51f17c;
   border-bottom: solid 2px rgba(255,255,255,0.06);
-  padding: 20px 0 20px 0;
+  padding: 10px 0;
   font-weight: 400;
 }
 
@@ -131,6 +131,8 @@ button:active {
   font-weight: 200;
 }
 
+
+
 .nobullet {
   list-style: none;
 }
@@ -143,3 +145,4 @@ button:active {
 .p-t-5{
   padding-top: 50px;
 }
+
